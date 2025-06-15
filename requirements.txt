@@ -1,0 +1,65 @@
+# Chess Game with Gemini AI - Requirements File
+# Python 3.8+ required
+
+# Core Chess Library
+# Provides chess game logic, board representation, move validation, and SVG generation
+python-chess==1.999
+
+# HTTP Requests Library
+# Used for making API calls to Google Gemini API
+requests==2.31.0
+
+# Environment Variables Management
+# Loads API keys and configuration from .env files
+python-dotenv==1.0.0
+
+# Optional: Enhanced Terminal Output (recommended)
+# Provides colored terminal output and better formatting
+colorama==0.4.6
+
+# Optional: Rich Terminal Interface (for better UX)
+# Provides rich text, progress bars, and enhanced console output
+rich==13.7.1
+
+# Development Dependencies (optional, for development/testing)
+# Uncomment if you plan to extend or test the code
+
+# Testing Framework
+# pytest==7.4.3
+# pytest-cov==4.1.0
+
+# Code Formatting
+# black==23.12.1
+# isort==5.13.2
+
+# Type Checking
+# mypy==1.8.0
+
+# Linting
+# flake8==6.1.0
+# pylint==3.0.3
+
+# Security Scanning
+# bandit==1.7.5
+
+# Documentation Generation
+# sphinx==7.2.6
+# sphinx-rtd-theme==2.0.0
+
+# Requirements Notes:
+# 1. Python 3.8 or higher is required
+# 2. All versions are pinned for stability
+# 3. Core dependencies are minimal to reduce conflicts
+# 4. Optional dependencies can enhance user experience
+# 5. Development dependencies are commented out by default
+
+# Installation Instructions:
+# pip install -r requirements.txt
+
+# For development setup:
+# pip install -r requirements.txt
+# Uncomment development dependencies above and run again
+
+# Environment Setup Required:
+# Create a .env file with: GOOGLE_API_KEY=your_api_key_here
+# Get API key from: https://makersuite.google.com/app/apikey
